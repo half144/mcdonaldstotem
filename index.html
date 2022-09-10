@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://logodownload.org/wp-content/uploads/2014/04/McDonalds-logo-1.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="script.js" defer></script>
+    <title>McDonalds Delivery</title>
+  </head>
+
+  <body>
+    <div class="app">
+      <aside>
+        <div class="logo">
+          <img
+            id="logoImg"
+            src="https://logodownload.org/wp-content/uploads/2014/04/McDonalds-logo-1.png"
+            alt=""
+          />
+        </div>
+        <div class="optionsAside">
+          <div class="option">
+            <img src="/src/prato.png" alt="" />
+          </div>
+          <div class="option">
+            <img src="/src/prato.png" alt="" />
+          </div>
+          <div class="option">
+            <img src="/src/prato.png" alt="" />
+          </div>
+        </div>
+      </aside>
+      <main>
+        <header>
+          <div class="title">
+            <h1>Categorias</h1>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Você está com fome de que?" />
+          </div>
+        </header>
+        <div class="listTypes">
+          <div class="foodType">
+            <div class="iconType">
+              <img src="src/prato.png" alt="" />
+            </div>
+            <p>Lorem</p>
+          </div>
+          <div class="foodType">
+            <div class="iconType">
+              <img src="src/prato.png" alt="" />
+            </div>
+            <p>Lorem</p>
+          </div>
+          <div class="foodType">
+            <div class="iconType">
+              <img src="src/prato.png" alt="" />
+            </div>
+            <p>Lorem</p>
+          </div>
+          <div class="foodType">
+            <div class="iconType">
+              <img src="src/prato.png" alt="" />
+            </div>
+            <p>Lorem</p>
+          </div>
+          <div class="foodType">
+            <div class="iconType">
+              <img src="src/prato.png" alt="" />
+            </div>
+            <p>Lorem</p>
+          </div>
+          <div class="foodType">
+            <div class="iconType">
+              <img src="src/prato.png" alt="" />
+            </div>
+            <p>Lorem</p>
+          </div>
+          <div class="foodType">
+            <div class="iconType">
+              <img src="src/prato.png" alt="" />
+            </div>
+            <p>Lorem</p>
+          </div>
+        </div>
+        <div class="menuOrder">
+          <div class="headerMenu">
+            <h1>Items</h1>
+            <div class="sortBy">
+              <p>Separar por</p>
+              <select name="category" id="category">
+                <option value="todos">Todos</option>
+                <option value="carne">Carne</option>
+                <option value="sobremesa">Sobremesa</option>
+                <option value="combos">Combos</option>
+                <option value="acompanhamentos">Acompanhamentos</option>
+              </select>
+            </div>
+          </div>
+          <div class="foodItemsArea"></div>
+        </div>
+      </main>
+      <aside class="menuOrderCart">
+        <div class="headerMenuCart">
+          <h1>Carrinho de compras</h1>
+        </div>
+        <div class="cartItemsArea">
+          <!-- items area -->
+        </div>
+        <div class="totalArea">
+          <div class="subTotalArea">
+            <div class="subTotal">
+              <p>SubTotal</p>
+            </div>
+            <div class="resultPrice">
+              <b class="result">0.00</b>
+            </div>
+          </div>
+        </div>
+        <div class="buyBtn">
+          <input type="button" value="Buy" />
+        </div>
+      </aside>
+      <div class="modalConfirm">
+        <div class="containerConfirm">
+          <div class="img">
+            <img src="./src/confirm.png" alt="" />
+          </div>
+          <p>Pedido realizado com sucesso! muito obrigado.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
